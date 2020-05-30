@@ -1,0 +1,12 @@
+<h1>Eat Ze Burga!</h1>
+<h2>Fresh Out The Kitchen</h2>
+<ul>
+    {{#each burgers}}
+    {{#unless devoured}}
+    <li>
+        <p>name : {{burger_name}}</p>
+        <p>devoured: {{devoured}}</p>
+    </li>
+    {{/unless}}
+    {{/each}}
+</ul>
